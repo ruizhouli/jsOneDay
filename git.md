@@ -46,3 +46,5 @@
    - 工作区和暂存区 git diff
    - 工作区和版本区 git diff master
    - 暂存区和版本区 git diff --cached
+- 上传github
+    设置秘钥：SSH-keygen -t rsa -C "邮箱" 
