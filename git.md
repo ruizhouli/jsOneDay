@@ -32,9 +32,17 @@
 - 查看版本 
     - git log
     - git reflog 查看多有的历史记录（包括历史区回滚）
-    
+
 - 回滚
      - git reset --hard commit码
 
 - 快速从工作区到版本区
     - git commit -a -m "版本名"
+
+- 过滤不需要上传的文件
+  -touch .gitignore  在gitignore文件中写要过滤的
+
+- 查看各大区域之间的区别
+   - 工作区和暂存区 git diff
+   - 工作区和版本区 git diff master
+   - 暂存区和版本区 git diff --cached
